@@ -16,20 +16,38 @@ body {
   
   /*---- ESTABLISH YOUR OWN TYPOGRAPHIC HIERARCHY WHICH SHOULD BE BASED ON YOUR FONT CHOICES ----*/
   h1 {font-size: 4em; }
-  h2 {font-size: 2em; margin: 1em 0; color: #000000}
-  h3 {font-size: 1.90em; margin: 3em 0 1em 0}
-  h4 {font-size: 1em; color: #858585; letter-spacing: 2px; padding-right: 16em; line-height: 1.5em}
-  h5 {font-size: 2em; color: #ffffff;}
-  h6 {font-size: 1em; color: #858585; letter-spacing: 2px; padding-right: 16em; line-height: 1.5em; padding-top: 2em;}
-  h7 {font-size: 1.5em; color: #000000; padding-bottom: 2em;}
-  h8 {font-size: 1em; color: #000000;}
+  h2 {font-size: 1.5em;
+     color: #000000;
+    margin-top: 4em;
+  margin-bottom: 2em;}
+  h3 {font-size: 1.90em;
+     margin: 3em 0 1em 0}
+  h4 {font-size: 1em;
+     color: #858585;
+      letter-spacing: 2px;
+       padding-right: 16em;
+        line-height: 1.5em}
+  h5 {font-size: 2em;
+     color: #ffffff;}
+  h6 {font-size: 1em;
+     color: #858585;
+      letter-spacing: 2px;
+       padding-right: 16em;
+        line-height: 1.5em;
+         padding-top: 2em;}
+  h7 {font-size: 1em;
+     color: #8d8d8d;
+      padding-bottom: 2em;
+       letter-spacing: 2px;
+        line-height: 1.5em;}
+  h8 {font-size: 1.5em;
+     color: #ffffff;}
 
-  p {font-size: 1.15em;
-    line-height: 1.5;
-    margin-bottom: 1em;
-    font-weight: 200;
-    text-align: justify;
-    padding-bottom: 5px;}
+  p {font-size: 1em;
+    color: #858585;
+     letter-spacing: 2px;
+       line-height: 1.5em;
+      padding-bottom: 2em;}
   
   header {
     width: 70%;
@@ -54,13 +72,18 @@ body {
   
   .highlight {color: #000000}
 
-    /*---------------- MONOGRAM ------------------*/
+    /*---------------- IMAGES ------------------*/
 
   .monogram-img {
     width: 100%;
     object-fit: cover;
   }
 
+  .about {
+    background-color: #000000;
+    padding-left: 10em;
+    margin-top: 4em;
+}
 
   /*---------------- PORTFOLIO SECTION ------------------*/
   
@@ -101,7 +124,6 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 10px 0;
     font-size: 0.85em;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.8);
@@ -201,6 +223,30 @@ body {
     display: block;
     margin: auto; 
     max-width: 100%; }
+
+  /* ------------------- ABOUT -------------------- */
+    
+    .about {
+      background-color: #000000;
+      color: #ffffff;
+      text-align: left;
+      font-size: 1em;
+      padding-top: 10em;
+      padding-left: 14em;
+      padding-bottom: 10em;
+    }
+
+  /* ------------------- ABOUT IMAGE -------------------- */
+    
+  .aboutpic {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1em;
+    align-content: center;
+    padding-top: 5em;
+    padding-right: 50em;
+  }
+
 
 
     /*---------------------------- FOOTER -----------------------------*/
